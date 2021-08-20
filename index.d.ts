@@ -429,3 +429,5 @@ declare interface TaggedWord {
   token: string;
   tag: string;
 }
+
+declare function normalize(tokens: string | string[]): string[];
